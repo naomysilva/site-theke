@@ -13,13 +13,10 @@ as tecnologia usadas foi:
   <li>
     html
   </li>
-
-    <li>
+   <li>
       css
   </li>
-
-  css
-    <li>
+   <li>
       boostrap
   </li>
 
