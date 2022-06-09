@@ -9,7 +9,19 @@ Site com layout de contatos.
 
 as tecnologia usadas foi:
 
-html
-css
-boostrap
+<ul>
+  <li>
+    html
+  </li>
 
+    <li>
+      css
+  </li>
+
+  css
+    <li>
+      boostrap
+  </li>
+
+
+</ul>
