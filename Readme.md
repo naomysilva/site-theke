@@ -4,6 +4,5 @@
 ##
 
 Sobre o Site:
-##
 
 Site com layout de contatos.
