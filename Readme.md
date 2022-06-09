@@ -6,3 +6,10 @@
 Sobre o Site:
 
 Site com layout de contatos.
+
+as tecnologia usadas foi:
+
+html
+css
+boostrap
+
