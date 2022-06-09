@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<header>
+  <div class="topo d-flex justify-content-end py-2 px-3">
+    <div class="menutopo mx-5 px-5">
+    <img src="" alt="">
+    <span class="ml-2"> <img src="imagens/icons8-male-user-24.png" alt="icone de perfil" height="" srcset=""> Acessar minha conta</span>
+  </div>
+  </div>
+  <nav id="principal" class="navbar navbar-expand-lg  ">
+    <div class="container-fluid d-flex justify-content-around px-md-4">
+      <a class="navbar-brand mt-md-4" href="#"><img src="imagens/Grupo 3.png" alt="logo da empresa"> </a>
+
+      <div id="cabecalho" class="d-flex justify-content-around md-10" id="navbarSupportedContent">
+        <ul class="navbar-nav col py- px-md-2 align-items-center">
+          <li class="nav-item  px-md-5">
+            <a class="nav-link active" href="#">Para empresas</a>
+          </li>
+
+          <li class="nav-item px-md-2">
+            <a class="nav-link active" href="#">Para desenvolvedores</a>
+          </li>
+          <li class="nav-item  px-md-2 active">
+            <a class="nav-link active" href="#">Quem somos</a>
+          </li>
+
+          <li class="nav-item px-md-3 active">
+            <a class="nav-link active" href="#">Blog</a>
+          </li>
+          <li class="nav-item  px-md-3 active">
+            <a class="nav-link active" href="#">Contato</a>
+          </li>
+          <li class="nav-item custom">
+            <button type="button" id="botao" class="btn btn-info">Agendar Demonstração</button>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+</header>
+<section id="contatos" class="bg-info d-flex justify-content-center p-5">
+  <div id="informacao">
+    <h2 id="ColunaContatos" class="text-center">Contatos</h2>
+    <p class="informacoes-contato text-center">
+      Clique nos botões abaixo para entrar em contato
+      <br>
+      conosco ligando ou mandando whatsapp
+    </p>
+    <div class="d-flex flex-direction justify-content-center">
+      <div class="mx-3">
+        <button type="button" id="Botaoligar" class="btn btn-primary p-3">Ligar para (51) 99999.9999</button>
+      </div>
+      <div class="mx-3">
+        <button type="button" id="Botaowhatsapp" class="btn btn-primary p-3">Chamar no WhatsApp Theke</button>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="d-flex justify-content-center p-5">
+  <form id="contato" class="mx-5 py-3 px-5">
+    <h2 class="texto-formulario text-center">Fale conosco</h2>
+    <p class="duvidas">Ficou com alguma dúvida sobre nossos serviços, tem
+     <br> uma crítica ou sugestão? <b> Preencha o formulário<br> abaixo</b> que em breve retornamos para você</p>
+
+    <input class="campo_nome" placeholder="Nome" type="text"><br><br>
+    <input class="campo_email" placeholder="Email" type="text"><br><br>
+    <input class="campo_telefone" placeholder="Telefone" type="text"><br><br>
+    <input class="campo_empresa" placeholder="Empresa" type="text"><br><br>
+    <input class="campo_cargo" placeholder="Cargo" type="text"><br><br>
+    <textarea class="msg" cols="35" placeholder="Digite aqui sua Mensagem" rows="8"></textarea><br>
+    
+    <label>
+      <input type="checkbox" id="vehicle1" name="vericacao" value="termos"> 
+      Li e concordo com a política de privacidade
+    </label>
+    <button type="button" id="botaoverificao" class="btn btn-info my-4">Enviar</button>
+  </form>
+
+  <div class="mx-5 py-5 d-flex flex-column justify-content-between">
+    <div class="contatct-card">
+      <img class="p-0" src="imagens/Grupo 61.png" alt="imagem de localizao">
+      <h4 class="cards">Onde estamos</h4>
+      <h5>Porto Alegre/RS</h5>
+      <p> Av. França, 1162 - Navegantes<br> CEP: 90230-220</p>
+    </div>
+    <div class="contatct-card">
+      <img class="p-0" src="imagens/padlock.png" alt="" srcset="">
+      
+      <h4 class="cards">Seus dados estão <br> protegidos conosco!</h4>
+      <p>Garantimos a privacidade das informações<br>
+        compartilhadas em conformidade com as <br>determinações da LGPD.</p>
+    </div>
+    <div class="contatct-card">
+      <img class="p-0" src="imagens/Caminho 265.png" alt="" srcset="">
+      <h4 class="cards">Vagas</h4>
+      <p> Clique no botão abaixo para <br> enviar seu currículo</p>
+      <button type="button" id="Botaocurriculo" class="btn btn-info">Trabalhe Conosco</button>
+    </div>
+  </div>
+  </div>
+
+  </div>
+</section>
+<section class="">
+  <!-- Footer -->
+  <!-- Footer -->
+  <footer class="page-footer font-small indigo">
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+
+      <!-- Grid row -->
+      <div class="row">
+
+        <!-- Grid column -->
+        <div class="row-1 col-md-3 mx-auto">
+
+          <!-- Links -->
+          <img class="logorodape" src="imagens/Grupo 32.png" alt="" srcset="">
+
+          <ul class="list-unstyled">
+            <li>
+              <p class="texto-rodape text-white">Plataforma completa de gestão <br> financeira e integração bancáriacom diversas instituições
+              </p>
+            </li>
+
+          </ul>
+          <div class="container">
+            <div class="icons row align-items-start">
+              <div class="col-2">
+                <img src="imagens/Caminho 261.png" alt="" srcset="">
+              </div>
+              <div class="col-2">
+                <img src="imagens/Caminho 262.png" alt="" srcset="">
+              </div>
+              <div class="col-1">
+                <img src="imagens/Grupo 34.png" alt="" srcset="">
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none">
+
+        <!-- Grid column -->
+        <div class="col-md-3 mx-auto">
+
+          <!-- Links -->
+          <h5 class=" font-weight-bold text-uppercase mt-3 mb-4 text-light">THEKE</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!" class="rodapetkeke text-white nav-link">Quem somos</a>
+            </li>
+            <li>
+              <a href="#!" class="rodapetkeke text-white nav-link">Para Empresas</a>
+            </li>
+            <li>
+              <a href="#!" class="rodapetkeke dev text-white nav-link">Para Desenvolvedores</a>
+            </li>
+            <li>
+              <a href="#!" class="rodapetkeke conta text-white nav-link">Acesse sua conta</a>
+            </li>
+          </ul>
+
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none">
+
+        <!-- Grid column -->
+        <div class="col-md-3 mx-auto">
+
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-light">SUPORTE</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!" class="rodapesuporte politica text-white nav-link text-light">Política de Privacidade</a>
+            </li>
+            <li>
+              <a href="#!" class="rodapesuporte termos text-white nav-link ">Termos de Uso</a>
+            </li>
+            <li>
+              <a href="#!" class="rodapesuporte text-white nav-link ">Dúvidas Frequentes</a>
+            </li>
+            <li>
+              <a href="#!" class="rodapesuporte text-white nav-link">Dúvidas Frequentes</a>
+            </li>
+          </ul>
+
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none">
+
+        <!-- Grid column -->
+        <div class="col-md-3 mx-auto">
+
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-light">CONTATO</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!" class="radapecontato text-white nav-link">(51) 9.9999-9999</a>
+            </li>
+            <li>
+              <a href="#!" class="email text-white nav-link">contato@theke.com.br</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white nav-link">Trabalhe Conosco</a>
+            </li>
+
+          </ul>
+
+        </div>
+
+
+      </div>
+
+
+    </div>
+
+
+
+    <div class="footer-copyright p-3">
+      <ul class="d-flex d-flex justify-content-around text-white " >
+        <li class=" ">
+          © 2022 Theke. Todos os direitos reservados
+        </li>
+        <li class=" text-white "> 
+          Desenvolvido com S2 por: <img src="imagens/Imagem 4.png" alt="logo da empresa que desenvolveu o site" height="13px" srcset="">
+        </li>
+      </ul>
+     
+
+    </div>
+
+
+  </footer>
+
+</section>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+
+</html>
